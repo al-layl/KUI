@@ -26,7 +26,8 @@ class KindleApp:
         self.root.title("Kindle-like eReader")
         self.root.geometry("800x480")
         self.root.resizable(False, False)  # Fixed size
-        
+        # Set fullscreen
+        self.root.attributes("-fullscreen", True)-----------------------------------------------
         # Set colors
         self.bg_color = "#f5f5f5"  # Light gray background
         self.text_color = "#333333"  # Dark gray text
